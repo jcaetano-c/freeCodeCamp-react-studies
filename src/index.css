@@ -5,12 +5,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 80%;
+  margin: 15px auto;
+  justify-content: center;
+}
+
 #root > div {
   padding: 18px;
   background-color: whitesmoke;
   border: #202020 solid 1px;
-  border-collapse: collapse;
   border-radius: 15px;
-  width: 80%;
-  margin: 15px auto;
+  width: 300px;
+  overflow: hidden;
+}
+#root h1:first-child {
+  color: tomato;
 }

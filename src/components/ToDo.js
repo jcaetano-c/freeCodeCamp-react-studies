@@ -12,7 +12,7 @@ class ToDo extends React.Component {
   render() {
     return (
       <div>
-        <h1>To Do Lists</h1>
+        <h1>ToDo.js</h1>
         <h2>Today</h2>
         <List tasks={["walk dog", "workout"]} />
         <h2>Tomorrow</h2>

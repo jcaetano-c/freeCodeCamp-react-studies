@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Items = (props) => {
   return (
     <>
-      <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
+      <h3>Current Quantity of Items in Cart: {props.quantity}</h3>
     </>
   );
 };
@@ -20,6 +20,7 @@ class Cart extends React.Component {
   render() {
     return (
       <div>
+        <h1>ShoppingCart.js</h1>
         <Items />
         <Items quantity={10} />
       </div>
