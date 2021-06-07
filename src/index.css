@@ -23,5 +23,24 @@ body {
   overflow: hidden;
 }
 #root h1:first-child {
-  color: tomato;
+  color: rgb(255, 99, 71);
+}
+#root h1.hidden {
+  visibility: hidden;
+}
+button {
+  background-color: hsl(9, 67%, 42%);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+button:not(:last-child) {
+  margin-right: 5px;
+}
+button:hover {
+  background-color: rgb(255, 99, 71);
 }
