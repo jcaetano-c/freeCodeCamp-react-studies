@@ -10,6 +10,12 @@ import Counter from "./Counter";
 import NowYouSeeMe from "./NowYouSeeMe";
 import ControlledInput from "./ControlledInput";
 import SubmitInput from "./SubmitInput";
+import FirstNavBar from "./FirstNavBar";
+import GetRender from "./GetRender";
+import DidMount from "./DidMount";
+import EventListener from "./EventListener";
+import OnlyEvens from "./OnlyEvens";
+
 import "../index.css";
 
 function App() {
@@ -28,6 +34,11 @@ function App() {
       <MyStatefulComponent />
       <ControlledInput />
       <SubmitInput />
+      <FirstNavBar />
+      <GetRender />
+      <DidMount />
+      <EventListener />
+      <OnlyEvens />
     </>
   );
 }

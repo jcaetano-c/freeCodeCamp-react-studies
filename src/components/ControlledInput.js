@@ -17,11 +17,7 @@ class ControlledInput extends React.Component {
       <div>
         <h1>{this.state.input}</h1>
 
-        <input
-          type="text"
-          value={this.state.input}
-          onChange={this.handleChange}
-        />
+        <input value={this.state.input} onChange={this.handleChange} />
       </div>
     );
   }
