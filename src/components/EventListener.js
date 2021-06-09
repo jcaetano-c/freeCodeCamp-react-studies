@@ -1,5 +1,5 @@
 import React from "react";
-class EventListener extends React.Component {
+class componentDidMount extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -35,4 +35,4 @@ class EventListener extends React.Component {
   }
 }
 
-export default EventListener;
+export default componentDidMount;

@@ -12,7 +12,7 @@ class NowYouSeeMe extends React.Component {
     this.setState((state) => ({ visibility: !state.visibility }));
   }
   render() {
-    if (this.state.visibility) {
+    /*if (this.state.visibility) {
       return (
         <div>
           <h1>Now you see me!</h1>
@@ -26,7 +26,13 @@ class NowYouSeeMe extends React.Component {
           <button onClick={this.toggleVisibility}>Click Me</button>
         </div>
       );
-    }
+    }*/
+    return (
+      <div>
+        <button onClick={this.toggleVisibility}>Click Me</button>
+        {this.state.visibility && <h1>Now you see me!</h1>}
+      </div>
+    );
   }
 }
 

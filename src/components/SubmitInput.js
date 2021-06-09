@@ -30,7 +30,11 @@ class SubmitInput extends React.Component {
             value={this.state.input}
             onChange={this.handleChange}
           />
-          <button type="button" onClick={this.handleSubmit}>
+          <button
+            type="button"
+            onClick={this.handleSubmit}
+            style={{ marginLeft: 15 }}
+          >
             Submit!
           </button>
         </form>

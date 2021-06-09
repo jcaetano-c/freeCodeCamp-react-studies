@@ -15,6 +15,9 @@ import GetRender from "./GetRender";
 import DidMount from "./DidMount";
 import EventListener from "./EventListener";
 import OnlyEvens from "./OnlyEvens";
+import Colorful from "./InlineStyles";
+import MagicEightBall from "./MagicEightBall";
+import CheckUserAge from "./TernaryCondition";
 
 import "../index.css";
 
@@ -39,6 +42,9 @@ function App() {
       <DidMount />
       <EventListener />
       <OnlyEvens />
+      <Colorful />
+      <MagicEightBall />
+      <CheckUserAge />
     </>
   );
 }
