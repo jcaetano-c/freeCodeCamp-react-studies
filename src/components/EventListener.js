@@ -22,8 +22,6 @@ class componentDidMount extends React.Component {
   handleKeyPress(event) {
     if (event.keyCode === 13) {
       this.handleEnter();
-    } else {
-      console.log(event.keyCode);
     }
   }
   render() {

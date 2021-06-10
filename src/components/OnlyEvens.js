@@ -5,7 +5,7 @@ class OnlyEvens extends React.Component {
     super(props);
   }
   shouldComponentUpdate(nextProps, nextState) {
-    return nextProps.value % 2 == 0 ? true : false;
+    return nextProps.value % 2 === 0 ? true : false;
   }
   componentDidUpdate() {
     console.log("Component re-rendered.");

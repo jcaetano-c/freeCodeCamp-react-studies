@@ -18,6 +18,12 @@ import OnlyEvens from "./OnlyEvens";
 import Colorful from "./InlineStyles";
 import MagicEightBall from "./MagicEightBall";
 import CheckUserAge from "./TernaryCondition";
+import GameOfChance from "./GameOfChance";
+import GateKeeper from "./ChangeInlineStyle";
+import MyToDoList from "./MyToDoList";
+import FrameworksList from "./KeyList";
+import UsersOnline from "./FilterUsers";
+import RenderToString from "./RenderToString";
 
 import "../index.css";
 
@@ -45,6 +51,12 @@ function App() {
       <Colorful />
       <MagicEightBall />
       <CheckUserAge />
+      <GameOfChance />
+      <GateKeeper />
+      <MyToDoList />
+      <FrameworksList />
+      <UsersOnline />
+      <RenderToString />
     </>
   );
 }
